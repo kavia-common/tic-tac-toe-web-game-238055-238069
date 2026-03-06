@@ -1,0 +1,22 @@
+.button {
+  /* Fallback for light/modern style (in case utility classes are not available) */
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  font-weight: 500;
+  font-size: 1rem;
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+  cursor: pointer;
+  transition: background 0.15s, box-shadow 0.15s;
+  outline: none;
+}
+
+.button:focus {
+  box-shadow: 0 0 0 3px #3b82f666;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
